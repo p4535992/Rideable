@@ -131,9 +131,9 @@ class GeometricUtils {
 	} 
 	
 	static Direction(pPositionA, pPositionB) {
-		let vDifference = GeometrixUtils.Difference(pPositionA, pPositionB);
+		let vDifference = GeometricUtils.Difference(pPositionA, pPositionB);
 		
-		return GeometrixUtils.scale(vDifference, 1/GeometrixUtils.value(vDifference));
+		return GeometricUtils.scale(vDifference, 1/GeometricUtils.value(vDifference));
 	}
 	
 	static Distance(pPositionA, pPositionB) {
